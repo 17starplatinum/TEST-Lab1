@@ -87,7 +87,7 @@ public class MergeSort implements RecursiveSortAlgorithm {
 
     @Override
     public <K extends Comparable<? super K>, V> List<MapEntry<K, V>> sort(List<MapEntry<K, V>> map, int l, int r) {
-        if(l > r) {
+        if(l < r) {
             int m = l + (r - l) / 2;
 
             sort(map, l, m);
