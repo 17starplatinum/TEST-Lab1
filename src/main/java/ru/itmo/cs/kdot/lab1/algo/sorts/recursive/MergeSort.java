@@ -1,4 +1,4 @@
-package ru.itmo.cs.kdot.lab1.algo.sorts.comparisons;
+package ru.itmo.cs.kdot.lab1.algo.sorts.recursive;
 
 import ru.itmo.cs.kdot.lab1.algo.sorts.MapEntry;
 import ru.itmo.cs.kdot.lab1.algo.sorts.RecursiveSortAlgorithm;
